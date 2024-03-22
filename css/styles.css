@@ -1,0 +1,265 @@
+
+
+.fondo{
+position: relative;
+
+}
+#nav{display: flex;
+background-color: aqua;}
+#lista{
+    background-color:whitesmoke;
+    position: absolute;
+    top:1%;
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+ul{list-style: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#list{
+    display: flex;
+    list-style: none;
+    gap: 30PX;
+    font-size: 14PX poppins;
+    font-weight: bold;
+    border-bottom: 1px solid gray;
+    position: relative;
+    padding: 20px 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#lista2{
+
+    background-color:whitesmoke;
+    position: absolute;
+    top:7%;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: center;
+    gap:100px;
+    align-items: center;
+    
+
+}
+#lupa{
+    position: relative;
+    right: 90rem;  
+}
+#npm{
+    width: 100px;
+    
+    height: auto;
+}
+#searchInput{
+    
+    width: 50vw;
+background-color: rgba(220, 220, 220, 0.432);    height: 2vw;
+}
+#centro{
+    z-index: 99;
+    color: white;
+    position: absolute;
+    top: 50%; /* Posición vertical del texto */
+    left: 50%; /* Posición horizontal del texto */
+    transform: translate(-50%, 10%); /* Centra el texto */
+    color: white;
+    text-align: center; 
+    padding: 10px;
+font-family: sans-serif;
+width: 40vw;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.titulo{
+    font-size:100px;
+    width: 50rem;
+}
+/* #section{
+    display: flex;
+    flex-direction: row-reverse;
+} */
+
+.texto{
+    font-size: 25px;
+    width: 50rem;
+}
+#titulo2{
+    font-size: 60px;
+    width: 50rem;
+}
+.btn-free{border-radius: 50px;
+width: 200px;
+padding: 20px;
+background-color: yellow;
+color: black;
+font-weight: bold;
+font-size: 17px;
+display: flex;
+justify-content: center;
+
+}
+.btn-free:hover
+{transform: scale(1.1);
+    cursor: pointer;
+    
+
+}
+#buttons{
+    display: flex;
+position: relative;
+right: 8rem;
+gap:10px
+
+}
+#button{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+    top:5rem;
+    transform: translate(1.1);
+cursor: pointer;
+}
+.btn-learn{
+    border-radius: 50px;
+    border:2px solid white;
+    width: 200px;
+    padding: 20px;
+    background-color: yellow;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+background-color: rgb(197, 20, 7);
+transform: translate(1.1);
+cursor: pointer;
+;
+
+
+}
+.btn-learn:hover
+{transform: scale(1.1);
+    cursor: pointer;
+    
+
+}
+#ee{display: flex;
+gap: 4rem;
+margin-right: 14rem;}
+#list{
+    display: flex;
+  justify-content: space-between	;
+  gap: 400px;
+}
+#search{
+    background-color: rgba(0, 0, 0, 0.753);
+    padding: 17px 20px;
+color:white;
+font-weight: bolder;
+height: 2.2vw;
+transform: translate(1.1);
+cursor: pointer;
+font-size: 18px;
+
+}
+#search:hover
+{transform: scale(1.1);
+    cursor: pointer;
+    
+
+}
+#signIn{
+    background-color:whitesmoke;
+    padding: 15px 20px;
+    color:rgb(9, 10, 9);
+    border:none;
+    font-size: 18px;
+}
+#signIn:hover
+{transform: scale(1.1);
+    cursor: pointer;
+    
+
+}
+#signUp{
+    background-color:whitesmoke;
+    padding: 15px 20px;
+color:rgb(9, 10, 9);
+font-size: 18px;
+
+
+}
+#signUp:hover
+{transform: scale(1.1);
+    cursor: pointer;
+    
+
+}
+#section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: whitesmoke;
+    height: 50rem;
+    border-bottom:2px solid gray ;
+
+}
+#imagenes{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+}
+#titulo3{
+    font-size: 40px  ;
+    font-family: sans-serif;
+    width: 512px;
+    height: 135px;
+    color:rgb(9, 10, 9); ;
+
+}
+#text1{
+    width: 30vw;
+    line-height: 25px;
+    font-size: 20px;
+    font-family: 'Arimo', sans-serif;
+}
+
+
+#footer{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    background-color: whitesmoke;
+    position: relative;
+}
+#logo{
+    position: absolute;
+    left: 410px;
+    margin-top: 150px;
+width: 70px;
+height: 70px;}
+#git{
+    position: absolute;
+left:410px;
+margin-top: 50px;
+width: 70px;
+height: 70px;}
+#lista3{
+    line-height: 3rem;
+}
+#lista4{
+    line-height: 3rem;
+}
+#lista5{
+    line-height: 3rem;
+}
+#listas{
+    display: flex;
+    gap: 28rem;
+}
